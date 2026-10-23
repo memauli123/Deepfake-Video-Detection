@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data, model artifacts, and generated results
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+outputs/
+reports/figures/
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/

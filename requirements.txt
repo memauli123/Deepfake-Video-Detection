@@ -1,0 +1,14 @@
+# Install torch and torchvision using the official PyTorch selector for your
+# operating system and compute device before installing this file.
+torch
+torchvision
+
+# Phase 1 dependencies named in the project presentation.
+opencv-python
+captum
+numpy
+pandas
+scikit-learn
+
+# Planned demo dependency; the dashboard is not part of the initial baseline.
+streamlit
