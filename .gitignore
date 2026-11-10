@@ -35,3 +35,5 @@ reports/figures/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
+
+data/*.mp4

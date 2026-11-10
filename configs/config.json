@@ -1,0 +1,26 @@
+
+{
+    "dataset": {
+    "name": "FaceForensics++",
+    "root": "data/raw/faceforensics++",
+    "processed": "data/processed",
+    "manifest": "data/splits/manifest.csv",
+    "compression": "c23",
+    "image_size": 224,
+    "frames_per_video": 10
+},
+    "labels": {
+        "real": 0,
+        "fake": 1
+    },
+    "model": {
+        "spatial_features": 512,
+        "frequency_features": 128,
+        "fusion_features": 640
+    },
+    "training": {
+        "batch_size": 8,
+        "learning_rate": 0.0001,
+        "epochs": 10
+    }
+}
