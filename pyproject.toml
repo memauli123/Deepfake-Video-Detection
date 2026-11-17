@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepfake-video-detection"
+version = "0.1.0"
+description = "Spatial-frequency-temporal deepfake video detection project"
+requires-python = ">=3.10"
+dependencies = ["torch", "torchvision", "opencv-python", "numpy", "pandas", "scikit-learn", "Pillow", "streamlit"]
+
+[project.optional-dependencies]
+retinaface = ["retina-face[pytorch]"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true
